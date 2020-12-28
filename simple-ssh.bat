@@ -14,7 +14,7 @@ goto missing
 :menu
 cls
 title simple-ssh.exe
-set version=1.5
+set version=1.6
 echo simple-ssh  Copyright (C) 2020  Adriaan van Vliet
 echo This program comes with ABSOLUTELY NO WARRANTY; for details type "%cd%\license-gpl-yes.txt".
 echo This is free software, and you are welcome to redistribute it under certain conditions; type "%cd%\license-gpl-yes.txt" for details.
@@ -476,6 +476,7 @@ goto menu
 :bug-report
 cls
 start https://adriaanvanvliet.com/?p=479#comments
+start https://github.com/Adri11n/simple-ssh/issues
 echo.
 echo 									###########################
 echo 									# Press enter to continue #
@@ -530,12 +531,12 @@ echo checking for internet connection [ok]
 ) || (
 goto missing-internet
 )
-ping cloud.adriaanvanvliet.com -n 1 -w 5000 >nul && (
-echo checking for the status of my personal cloud [ok]
+ping github.io -n 1 -w 5000 >nul && (
+echo checking for the status of my storage [ok]
 ) || (
 goto missing-nextcloud
 )
-curl https://cloud.adriaanvanvliet.com/index.php/s/5osmydZy7x5tSb2/download --output version.txt
+curl https://adri11n.github.io/web/projects/simple-ssh/version.txt --output version.txt
 set/p versionupdate=< version.txt
 cls
 if %version%==%versionupdate% goto no-update
@@ -573,7 +574,7 @@ ping localhost -n 1 >nul
 echo you must close now all windows where you opened the simple-ssh skript or the simple-ssh folder, if you done this press enter
 set lol=%cd%
 pause
-curl https://cloud.adriaanvanvliet.com/index.php/s/6Wq4terbMwRqpBm/download --output %USERPROFILE%\AppData\Local\Temp\updater.bat
+curl https://adri11n.github.io/web/projects/simple-ssh/updater.bat --output %USERPROFILE%\AppData\Local\Temp\updater.bat
 start /MAX %USERPROFILE%\AppData\Local\Temp\updater.bat %lol%
 exit
 
