@@ -5,7 +5,7 @@ rmdir /S /Q %1
 echo.
 echo removed skript [ok]
 ping localhost -n 2 >nul
-curl https://cloud.adriaanvanvliet.com/index.php/s/b3G33MZ3Y8NtrCB/download --output %userprofile%/Desktop/simple-ssh.zip
+curl https://adri11n.github.io/web/projects/simple-ssh/simple-ssh.zip --output %userprofile%/Desktop/simple-ssh.zip
 echo.
 echo download done [ok]
 ping localhost -n 2 >nul
