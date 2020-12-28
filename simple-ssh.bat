@@ -13,7 +13,7 @@ goto missing
 
 :menu
 cls
-title simple-ssh.exe
+title simple-ssh.bat
 set version=1.6
 echo simple-ssh  Copyright (C) 2020  Adriaan van Vliet
 echo This program comes with ABSOLUTELY NO WARRANTY; for details type "%cd%\license-gpl-yes.txt".

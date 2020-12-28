@@ -56,11 +56,11 @@ goto error_input
 :download-nextcloud-check
 cls
 echo.
-echo I will now lock if my cloud is online
+echo I will now lock if my storage is online
 echo.
 ping localhost -n 3 >nul
-ping cloud.adriaanvanvliet.com -n 1 -w 5000 >nul && (
-echo checking for the status of my personal cloud [ok]
+ping github.io -n 1 -w 5000 >nul && (
+echo checking for the status of my storage [ok]
 ) || (
 goto missing-nextcloud
 )
@@ -70,7 +70,7 @@ goto download-nextcloud
 
 :download-nextcloud
 cls
-curl https://cloud.adriaanvanvliet.com/index.php/s/b3G33MZ3Y8NtrCB/download --output %userprofile%/Desktop/simple-ssh.zip
+curl https://adri11n.github.io/web/projects/simple-ssh/simple-ssh.zip --output %userprofile%/Desktop/simple-ssh.zip
 echo.
 echo download done [ok]
 ping localhost -n 2 >nul
@@ -96,7 +96,7 @@ cls
 title error
 echo.
 echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-echo 										My Personal Cloud isnt avaidebile now try it later then my cloud will be online
+echo 										My Storage isnt avaidebile now try it later then my cloud will be online
 echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 pause
 goto END
