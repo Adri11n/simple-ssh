@@ -1,4 +1,75 @@
-/font></font>
+
+<br>
+&#13;&#10;
+
+<font face="Arial, sans-serif"><font size="7" style="font-size: 80pt;"><b>simple-ssh</b></font></font>
+
+<br>
+&#13;&#10;
+
+<font face="Arial, sans-serif"><font size="6" style="font-size: 26pt;"><b>Intro</b></font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">The
+simple-ssh is an tool writen in batch .</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">With
+this tool you can use basicly ssh commands, save ssh connections,
+generate any type of ssh keys, en or decrypt ssh keys and export the
+.pub key to an remote server without ever typing any command .</font></font>
+
+<br>
+&#13;&#10;
+
+<font face="Arial, sans-serif"><font size="6" style="font-size: 26pt;"><b>Requirements</b></font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">The
+Requirements are listed below.</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">-Windows</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">-curl</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">-tar</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">-Openssh
+Client</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">-internet</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">-1
+mb of free space</font></font>
+
+<br>
+&#13;&#10;
+
+<font face="Arial, sans-serif"><font size="6" style="font-size: 26pt;"><b>Installation</b></font></font>
+
+<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;"><span style="font-weight: normal;">Just
+click on this [link](https://adri11n.github.io/web/projects/simple-ssh/installer-simple-ssh.bat)
+and execute the downloaded file.</span></font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">That
+script will download, unzip and open the explorer at the location of
+the simple-ssh.</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">Read
+the license-gpl-no and after you road it, rename it to
+license-gpl-yes.</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">Then
+click on that file called start.bat and the programm will start.</font></font>
+
+<br>
+&#13;&#10;
+
+<font face="Arial, sans-serif"><font size="6" style="font-size: 26pt;"><b>Usage</b></font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">First
+you need to exapt the license, do that by renaming license-gpl-no.txt
+to license-gpl-yes.txt .</font></font>
+
+&#13;&#10;<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt;">Then
+the programm will explain itself.</font></font>
 
 <br>
 &#13;&#10;
@@ -238,4 +309,3 @@ questions for an FAQ to my mail adriaan@adriaanvanvliet.com</b></font></font>
 
 <br>
 &#13;&#10;
-
