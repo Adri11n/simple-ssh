@@ -288,7 +288,7 @@ it should look like this.  </span></font>
 <br>
 &#13;&#10;
 
-![](https://adriaanvanvliet.com/wp-content/uploads/2020/10/Administrator_-error-19.11.2020-15_47_48.png)
+![](https://raw.githubusercontent.com/Adri11n/simple-ssh/main/Administrator_-error-19.11.2020-15_47_48%5B1%5D.png)
   &#13;&#10;
 &#13;&#10;
 
