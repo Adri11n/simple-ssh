@@ -172,7 +172,7 @@ hear the following screen, what do I do?</span></font>**
 <br>
 &#13;&#10;
 
-  ![](https://adriaanvanvliet.com/wp-content/uploads/2020/10/Administrator_-error-19.11.2020-15_46_32.png)
+  ![](https://raw.githubusercontent.com/Adri11n/simple-ssh/main/Administrator_-error-19.11.2020-15_46_32%5B1%5D.png)
 &#13;&#10;
 
 <br>
